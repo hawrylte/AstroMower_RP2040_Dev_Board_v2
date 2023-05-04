@@ -9,5 +9,7 @@ USB-C Interface
 
 Resistors and Capacitors are 0603 and 0805
 
+All parts ordered through Digi-Key
+
 
 ### DRC for Manufacture through [OSHPARK](https://oshpark.com/)
