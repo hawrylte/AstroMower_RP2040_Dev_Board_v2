@@ -2894,7 +2894,7 @@
     )
     (pin "1" (uuid 80efd136-8135-4101-b3cb-5742b5a9bfea))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR023") (unit 1)
         )
@@ -2919,7 +2919,7 @@
     )
     (pin "1" (uuid 15bd45c7-b548-4eec-ad5d-211df51866a6))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR017") (unit 1)
         )
@@ -2944,7 +2944,7 @@
     )
     (pin "1" (uuid 9f6b9c21-e960-45f6-bcf9-454e2e548449))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR018") (unit 1)
         )
@@ -2969,7 +2969,7 @@
     )
     (pin "1" (uuid 69aab48f-c254-4f9c-b5d8-c1bb4f838b61))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR01") (unit 1)
         )
@@ -2989,13 +2989,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 148.59 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 148.59 220.98 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCC.pdf" (at 148.59 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-9370-2-ND" (at 148.59 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "06031A8R0D4T2A" (at 148.59 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a988f614-f994-4691-bb16-25f8e6ddf914))
     (pin "2" (uuid b7d4504e-c732-4f87-9e07-c467b5cdd6b3))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C16") (unit 1)
         )
@@ -3015,13 +3021,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 86.36 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 86.36 83.82 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 86.36 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-7018-2-ND" (at 86.36 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "06033C104KAT4A" (at 86.36 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ff5de5ed-4d27-479d-a82a-f2e0d9944c2d))
     (pin "2" (uuid a23e1bf3-2032-4c5b-afc4-52888024e2b1))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C5") (unit 1)
         )
@@ -3041,7 +3053,13 @@
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" (at 354.33 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 354.33 172.72 0)
+    (property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf" (at 354.33 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "2057-PH1-16-UA-ND" (at 354.33 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "PH1-16-UA" (at 354.33 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a8853443-6908-44b5-b144-463e0ffcdca1))
@@ -3061,7 +3079,7 @@
     (pin "8" (uuid 2b164b76-67c9-455d-863f-61d733374091))
     (pin "9" (uuid 69b59e5f-1bc6-4a74-ac9c-7c096879a76e))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "J2") (unit 1)
         )
@@ -3086,7 +3104,7 @@
     )
     (pin "1" (uuid ecd333a6-7c36-4caa-925f-1bd93bca2003))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR016") (unit 1)
         )
@@ -3111,7 +3129,7 @@
     )
     (pin "1" (uuid a8db84d9-2751-40eb-9e9b-27a422b18a13))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR019") (unit 1)
         )
@@ -3131,13 +3149,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 113.03 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 113.03 83.82 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 113.03 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-7018-2-ND" (at 113.03 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "06033C104KAT4A" (at 113.03 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f9fe787d-a6d2-4321-b99b-fadb8fef431c))
     (pin "2" (uuid a3c170b0-0b26-4c7a-abfd-3f696dfe94c1))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C10") (unit 1)
         )
@@ -3157,13 +3181,19 @@
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 137.16 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 137.16 50.8 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 137.16 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-10578-2-ND" (at 137.16 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "0805ZC106KAT2A" (at 137.16 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ee77a9cc-cf9a-4057-87bb-055675d2dde1))
     (pin "2" (uuid 3c74d399-04c6-4b4c-95e4-fdf5a5c37bc8))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C14") (unit 1)
         )
@@ -3188,7 +3218,7 @@
     )
     (pin "1" (uuid aed01edb-3288-4686-adc5-d58ffa00e89b))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR03") (unit 1)
         )
@@ -3213,7 +3243,7 @@
     )
     (pin "1" (uuid c41d661e-917d-46a9-ad24-dedd20a8f491))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR09") (unit 1)
         )
@@ -3233,13 +3263,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 293.37 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 293.37 60.96 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 293.37 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "P5.10KHTR-ND" (at 293.37 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "ERJ-3EKF5101V" (at 293.37 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 44fe3377-e81f-4eb1-8b62-125973f7c166))
     (pin "2" (uuid 5728956f-e670-4c98-ab9f-0ae098c799e8))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "R5") (unit 1)
         )
@@ -3259,13 +3295,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 97.79 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 97.79 124.46 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 97.79 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-5010-2-ND" (at 97.79 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "0603YC105KAT2A" (at 97.79 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 82595da1-2678-41c4-bd73-f7410ec3f47b))
     (pin "2" (uuid 7cd102ef-0376-43ce-9a5c-58e7b8e889f2))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C7") (unit 1)
         )
@@ -3285,7 +3327,13 @@
     (property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" (at 154.94 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 154.94 212.09 0)
+    (property "Datasheet" "https://www.we-online.com/catalog/datasheet/830108206909.pdf" (at 154.94 212.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "1923-830108206909TR-ND" (at 154.94 212.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "830108206909" (at 154.94 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ab8581d9-b3c9-4f90-986e-6a7cdf129284))
@@ -3293,7 +3341,7 @@
     (pin "3" (uuid f90112ed-2025-4107-80ec-157d0690c04a))
     (pin "4" (uuid 412c2747-a8a0-43cc-8d6d-a848f8c02087))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "Y1") (unit 1)
         )
@@ -3318,7 +3366,7 @@
     )
     (pin "1" (uuid 315369ed-53f2-488d-b58a-50d92b69ef81))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR025") (unit 1)
         )
@@ -3338,7 +3386,13 @@
     (property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" (at 256.54 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" (at 256.54 195.58 0)
+    (property "Datasheet" "https://www.winbond.com/resource-files/w25q64jv%20revj%2003272018%20plus.pdf" (at 256.54 195.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "W25Q64JVSSIQ-ND" (at 256.54 195.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "W25Q64JVSSIQ" (at 256.54 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d7d7a1ad-446f-4f0d-b783-b65682db8b92))
@@ -3350,7 +3404,7 @@
     (pin "7" (uuid 88215470-ee9c-45f5-acfc-b75ac0f495da))
     (pin "8" (uuid 5ba959f5-0dd6-4172-9d38-e7b8cacba810))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "U3") (unit 1)
         )
@@ -3370,13 +3424,19 @@
     (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (at 316.23 46.99 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 316.23 46.99 90)
+    (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nsr0320mw2t1-d.pdf" (at 316.23 46.99 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "NSR0320MW2T3GOSTR-ND" (at 316.23 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "NSR0320MW2T3G" (at 316.23 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ed07e2f6-bda3-4852-b580-572508394419))
     (pin "2" (uuid 08ca291a-2fa7-452a-a2b1-0d9ad43081a0))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "D3") (unit 1)
         )
@@ -3401,7 +3461,7 @@
     )
     (pin "1" (uuid cf6823c7-ad93-4276-bb7e-c2b032f8d099))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR014") (unit 1)
         )
@@ -3421,13 +3481,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 300.99 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 300.99 60.96 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 300.99 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "P5.10KHTR-ND" (at 300.99 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "ERJ-3EKF5101V" (at 300.99 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid aad3d3ff-fc72-40c2-8d25-a693bf62af6a))
     (pin "2" (uuid 55772540-d072-4ed2-8b90-4f871a2f551c))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "R6") (unit 1)
         )
@@ -3447,7 +3513,13 @@
     (property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm" (at 158.75 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 158.75 87.63 0)
+    (property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf" (at 158.75 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "2648-SC0914(13)TR-ND" (at 158.75 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "SC0914(13)" (at 158.75 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 82edafb3-7c9a-4e22-a7c8-62540b4a4584))
@@ -3508,7 +3580,7 @@
     (pin "8" (uuid 13b8a858-b382-4b62-94f6-8644c9e1e6f6))
     (pin "9" (uuid a633a7e8-cb0f-4538-81da-5345c6696515))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "U2") (unit 1)
         )
@@ -3528,13 +3600,19 @@
     (property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" (at 82.55 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" (at 82.55 196.85 0)
+    (property "Datasheet" "https://www.ckswitches.com/media/2779/pts636.pdf" (at 82.55 196.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "CKN12322-2-ND" (at 77.47 196.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "PTS636 SK25 SMTR LFS" (at 77.47 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f02e4cc7-40cf-43e8-9e54-e23d81f6067e))
     (pin "2" (uuid a1ed4c96-7aff-45bc-8eaf-18f950d447f9))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "SW2") (unit 1)
         )
@@ -3559,7 +3637,7 @@
     )
     (pin "1" (uuid 73d2b974-17c0-4983-8a77-ff08b42e515e))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR02") (unit 1)
         )
@@ -3579,13 +3657,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 50.8 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 50.8 83.82 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 50.8 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-5010-2-ND" (at 50.8 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "0603YC105KAT2A" (at 50.8 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 70d515e8-1a9d-4418-8534-2ada729a2025))
     (pin "2" (uuid 41661b60-1bab-4567-952a-7b7bd36dea5f))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C1") (unit 1)
         )
@@ -3605,13 +3689,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 77.47 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 77.47 83.82 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 77.47 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-7018-2-ND" (at 77.47 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "06033C104KAT4A" (at 77.47 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f86b9148-83b4-4ea0-a803-6a1b5e76b7df))
     (pin "2" (uuid 14f1bc1d-2eab-43e9-a65d-7bd56421257f))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C4") (unit 1)
         )
@@ -3631,13 +3721,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 113.03 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 113.03 124.46 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 113.03 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-7018-2-ND" (at 113.03 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "06033C104KAT4A" (at 113.03 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid db225199-8f16-4bf1-8494-1f113fe729d4))
     (pin "2" (uuid 2259be73-d02f-4985-966d-f011fdc3f753))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C11") (unit 1)
         )
@@ -3657,7 +3753,13 @@
     (property "Footprint" "RP2040_DevBoard:WS2812B" (at 242.57 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 242.57 78.74 0)
+    (property "Datasheet" "http://cdn.sparkfun.com/datasheets/BreakoutBoards/WS2812B.pdf" (at 242.57 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "1568-COM-16347TR-ND" (at 242.57 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "COM-16347" (at 242.57 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6f7c6b8e-f396-43a9-8e72-8b1317e7cc1e))
@@ -3665,7 +3767,7 @@
     (pin "3" (uuid 8d6cc294-fbc6-4d2d-b120-f04c191f4df0))
     (pin "4" (uuid 6ad87c88-a88a-463a-b3ab-648eb903f150))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "D2") (unit 1)
         )
@@ -3685,13 +3787,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 161.29 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 161.29 203.2 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 161.29 203.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "P1.30KHTR-ND" (at 161.29 203.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "ERJ-3EKF1301V" (at 161.29 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid efb0e280-d731-44ea-b04f-122ec6b6081e))
     (pin "2" (uuid 401615e5-a249-4b64-acc6-1ebd2396a11c))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "R3") (unit 1)
         )
@@ -3711,13 +3819,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 95.25 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 95.25 83.82 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 95.25 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-7018-2-ND" (at 95.25 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "06033C104KAT4A" (at 95.25 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 447dfd03-bce3-44ea-971e-6014637f78df))
     (pin "2" (uuid f2dc6431-5de7-4083-a97e-349780fd74f9))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C6") (unit 1)
         )
@@ -3742,7 +3856,7 @@
     )
     (pin "1" (uuid 57615fb9-6fd7-4903-b8be-d5c9004f1843))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR06") (unit 1)
         )
@@ -3767,7 +3881,7 @@
     )
     (pin "1" (uuid 4f4d5461-1abd-496a-9eb4-0a14d235d036))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR04") (unit 1)
         )
@@ -3787,13 +3901,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 139.7 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 139.7 83.82 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 139.7 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-7018-2-ND" (at 139.7 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "06033C104KAT4A" (at 139.7 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 20d350c4-b750-419e-9894-67044a3a5baa))
     (pin "2" (uuid fe45fa35-b410-41f7-b33d-d4a2a4fe7d0c))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C15") (unit 1)
         )
@@ -3818,7 +3938,7 @@
     )
     (pin "1" (uuid e90913d2-4a7a-463b-91d7-0301ec4e65a6))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR013") (unit 1)
         )
@@ -3838,13 +3958,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 68.58 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 68.58 83.82 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 68.58 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-7018-2-ND" (at 68.58 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "06033C104KAT4A" (at 68.58 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a67bccf2-8afe-49fe-929c-f545128d4533))
     (pin "2" (uuid 775d56e3-812f-412f-b481-868ff42eca01))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C3") (unit 1)
         )
@@ -3864,13 +3990,19 @@
     (property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" (at 58.42 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" (at 58.42 196.85 0)
+    (property "Datasheet" "https://www.ckswitches.com/media/2779/pts636.pdf" (at 58.42 196.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "CKN12322-2-ND" (at 53.34 196.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "PTS636 SK25 SMTR LFS" (at 53.34 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 87e0e2da-6dd7-4202-831a-8544cb34513d))
     (pin "2" (uuid cceaaa22-0f4d-4a6d-88bd-aa143960a77c))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "SW1") (unit 1)
         )
@@ -3890,13 +4022,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 121.92 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 121.92 83.82 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 121.92 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-7018-2-ND" (at 121.92 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "06033C104KAT4A" (at 121.92 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 54e6ce4f-08d8-4a8a-8176-fa50e3504ddf))
     (pin "2" (uuid 11103520-a9cf-49f6-8843-40d74adfd4b7))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C12") (unit 1)
         )
@@ -3916,13 +4054,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 161.29 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 161.29 220.98 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCC.pdf" (at 161.29 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-9370-2-ND" (at 161.29 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "06031A8R0D4T2A" (at 161.29 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cbf4e1d6-ae3b-4950-83fc-b2968cbfbc81))
     (pin "2" (uuid dcacad9e-4484-42b2-9cb4-06483828425f))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C17") (unit 1)
         )
@@ -3947,7 +4091,7 @@
     )
     (pin "1" (uuid 63ae282e-ee12-4a2e-85eb-a29283961b12))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR010") (unit 1)
         )
@@ -3972,7 +4116,7 @@
     )
     (pin "1" (uuid 02f22647-5576-4bd9-80c5-18ba3a87d5cb))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR012") (unit 1)
         )
@@ -3997,7 +4141,7 @@
     )
     (pin "1" (uuid d7341f3b-ae50-4423-b1bd-5e45f81d2bd3))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR05") (unit 1)
         )
@@ -4022,7 +4166,7 @@
     )
     (pin "1" (uuid 9cf5c697-7889-4399-a853-9737cbab0a6d))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR08") (unit 1)
         )
@@ -4047,7 +4191,7 @@
     )
     (pin "1" (uuid f55f9f80-8a11-476a-ac4c-5c40bcdd9ba3))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR020") (unit 1)
         )
@@ -4067,13 +4211,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 316.23 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 316.23 71.12 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 316.23 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "P27.0HTR-ND" (at 316.23 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "ERJ-3EKF27R0V" (at 316.23 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 02b64923-08cb-4330-a9cc-4159585aa509))
     (pin "2" (uuid e944b171-44fe-46d1-aa0e-3400719e6912))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "R7") (unit 1)
         )
@@ -4098,7 +4248,7 @@
     )
     (pin "1" (uuid a990dc60-64a6-4a16-b641-88258d3e6962))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR07") (unit 1)
         )
@@ -4118,13 +4268,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 59.69 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 59.69 83.82 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 59.69 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-5010-2-ND" (at 59.69 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "0603YC105KAT2A" (at 59.69 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid deed8d74-f393-4b23-8ac9-2e1f2f01f8a2))
     (pin "2" (uuid 8891227e-8973-46f2-88db-2cfbbd165edc))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C2") (unit 1)
         )
@@ -4147,13 +4303,19 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf" (at 158.75 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Digi-Key PN" "AP2112K-3.3TRG1DITR-ND" (at 158.75 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "AP2112K-3.3TRG1" (at 158.75 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid afa838b5-55e2-46ff-96ba-562bcb7c74ac))
     (pin "2" (uuid 2d5b6ecd-9333-4ede-b278-0fa80c91b6ac))
     (pin "3" (uuid 4b40f998-cfc2-4375-aa01-8ceccb8c13f1))
     (pin "4" (uuid f1ddc31d-7136-4917-ba1f-1b46e1f85f7a))
     (pin "5" (uuid 308b89fb-b87e-42e9-ab6e-6bb7af317b0c))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "U1") (unit 1)
         )
@@ -4173,13 +4335,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 66.04 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 66.04 177.8 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 66.04 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "P1.30KHTR-ND" (at 66.04 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "ERJ-3EKF1301V" (at 66.04 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9e04756c-ae42-476f-a62a-e49d825f7e34))
     (pin "2" (uuid fdbe1753-cfc6-4058-add6-d442967bdc7f))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "R1") (unit 1)
         )
@@ -4199,13 +4367,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 125.73 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 125.73 105.41 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 125.73 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "P10.0KHTR-ND" (at 125.73 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "ERJ-3EKF1002V" (at 125.73 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2b71389a-1d5c-450b-b568-212e54c870e7))
     (pin "2" (uuid 7a28cba8-c624-4850-9a88-704d0805da1e))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "R2") (unit 1)
         )
@@ -4225,13 +4399,19 @@
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 180.34 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 180.34 50.8 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 180.34 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-10578-2-ND" (at 180.34 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "0805ZC106KAT2A" (at 180.34 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 18225113-8797-4c2d-b00d-8783fcb2f558))
     (pin "2" (uuid 0b99904e-84fd-49f1-9ff5-85afbf62155b))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C18") (unit 1)
         )
@@ -4251,13 +4431,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 242.57 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 242.57 180.34 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 242.57 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "P10.0KHTR-ND" (at 242.57 180.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "ERJ-3EKF1002V" (at 242.57 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 33e249f4-190a-43a0-b6f1-c307cd48e413))
     (pin "2" (uuid ac6470dc-c085-419f-8507-273885aeafce))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "R4") (unit 1)
         )
@@ -4282,7 +4468,7 @@
     )
     (pin "1" (uuid ba33cb05-e2a9-439b-bc1b-c79cce393fee))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR011") (unit 1)
         )
@@ -4302,13 +4488,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 105.41 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 105.41 124.46 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 105.41 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-7018-2-ND" (at 105.41 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "06033C104KAT4A" (at 105.41 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0906763d-4b39-4dd3-863f-d5b6252b4380))
     (pin "2" (uuid ee4f0797-785f-4b66-a73e-544c4f8c2ab2))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C9") (unit 1)
         )
@@ -4328,13 +4520,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 104.14 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 104.14 83.82 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 104.14 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-7018-2-ND" (at 104.14 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "06033C104KAT4A" (at 104.14 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 37561485-db12-4278-abde-ee221d64bcda))
     (pin "2" (uuid b3bccf85-8bf2-4ca1-ba90-69fb99435a54))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C8") (unit 1)
         )
@@ -4359,7 +4557,7 @@
     )
     (pin "1" (uuid 3933624d-570c-4365-8d77-aa3bef3d50a2))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR015") (unit 1)
         )
@@ -4384,7 +4582,7 @@
     )
     (pin "1" (uuid bd5f1670-6388-4dcb-87d6-d4aa0cd2ccc7))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR022") (unit 1)
         )
@@ -4404,7 +4602,13 @@
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" (at 354.33 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 354.33 121.92 0)
+    (property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf" (at 354.33 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "2057-PH1-16-UA-ND" (at 354.33 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "PH1-16-UA" (at 354.33 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 96ddf18f-c4e3-4a03-bca3-adcefff79677))
@@ -4424,7 +4628,7 @@
     (pin "8" (uuid bcb7c1d5-2734-4008-9b5b-3bb3ef4499e9))
     (pin "9" (uuid e96292c7-a9cf-4ae7-871d-d58f0a54a15a))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "J1") (unit 1)
         )
@@ -4449,7 +4653,7 @@
     )
     (pin "1" (uuid 46ba6b1f-be91-4e57-9220-89758e9b96b5))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR021") (unit 1)
         )
@@ -4469,7 +4673,13 @@
     (property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal" (at 351.79 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 351.79 62.23 0)
+    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/GCT%20PDFs/USB4105%20-%20Product%20Drawing.pdf" (at 351.79 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "2073-USB4105-GF-ATR-ND" (at 355.6 62.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "USB4105-GF-A" (at 355.6 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "A1" (uuid 6465e267-42f3-4700-921b-5b6790dd887d))
@@ -4490,7 +4700,7 @@
     (pin "B9" (uuid 4acd256c-3648-4307-8274-e8ee72a2f5e2))
     (pin "S1" (uuid e2f0aefe-087e-47c9-98b1-c374ce8fade9))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "J3") (unit 1)
         )
@@ -4510,13 +4720,19 @@
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 130.81 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 130.81 83.82 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf" (at 130.81 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "478-7018-2-ND" (at 130.81 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "06033C104KAT4A" (at 130.81 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8c107cfb-92ee-467d-9a11-3d2050102fd1))
     (pin "2" (uuid cc75dd18-11b6-4ff0-9190-4f556e9e4a34))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "C13") (unit 1)
         )
@@ -4541,7 +4757,7 @@
     )
     (pin "1" (uuid 07624746-89d7-4efc-8404-ac8182cc56e7))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "#PWR024") (unit 1)
         )
@@ -4561,13 +4777,19 @@
     (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (at 59.69 187.96 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 59.69 187.96 90)
+    (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nsr0320mw2t1-d.pdf" (at 59.69 187.96 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "NSR0320MW2T3GOSTR-ND" (at 59.69 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "NSR0320MW2T3G" (at 59.69 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9bfcb3bd-2578-45a9-93a1-74ff823f4bb6))
     (pin "2" (uuid 737bb388-3d70-4b09-a609-44e9dca4b10e))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "D1") (unit 1)
         )
@@ -4587,13 +4809,19 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 323.85 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 323.85 71.12 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 323.85 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digi-Key PN" "P27.0HTR-ND" (at 323.85 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfg PN" "ERJ-3EKF27R0V" (at 323.85 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bce7a6d7-0095-4780-9344-4bbda8ed35e4))
     (pin "2" (uuid e1a0f6f6-efa5-485a-84e5-8811c8f80f64))
     (instances
-      (project "RP2040_DevBoard_v1"
+      (project "RP2040_DevBoard_v2"
         (path "/da1e69f4-b9d3-4bb1-aa25-0f86bfee1912"
           (reference "R8") (unit 1)
         )
