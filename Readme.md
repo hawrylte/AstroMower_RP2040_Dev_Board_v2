@@ -8,7 +8,11 @@ RP2040 Development Board to explore programming capability of Raspberry Pi [RP20
 
   * USB-C Interface
 
-  * Resistors and Capacitors are 0603 and 0805
+  * Resistors and Capacitors are 0603 and 0805 hand solder footprints. 
+
+  * Incorporates Neopixel addressable LED
+
+  * 8 MB Flash
 
   * All parts ordered through Digi-Key
 
@@ -17,5 +21,5 @@ RP2040 Development Board to explore programming capability of Raspberry Pi [RP20
   * DRC for Manufacture through [OSHPARK](https://oshpark.com/)
 
 ## License
-This hardware is licensed under the CERN Open Hardware License Version 2.0, Strongly Reciprocal Variant (CERN-OHL-S). See license.txt for full details.
+This hardware is licensed under the CERN Open Hardware License Version 2.0, Strongly Reciprocal Variant (CERN-OHL-S). See license.txt for more information.
 
