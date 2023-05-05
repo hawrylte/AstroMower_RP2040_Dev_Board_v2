@@ -3,7 +3,7 @@
 RP2040 Development Board to explore programming capability of Raspberry Pi [RP2040](https://www.raspberrypi.com/products/rp2040/) MCU for use in future projects.
 
 ## Hardware
-  * 2 Layer PCB
+  * 2 Layer PCB with parts populated on both sides
 
   * Spacing of pin headers is 0.9" to use on standard breadboard.
 
@@ -11,7 +11,7 @@ RP2040 Development Board to explore programming capability of Raspberry Pi [RP20
 
   * USB-C Interface
 
-  * Resistors and Capacitors are 0603 and 0805 with hand solder footprints. 
+  * Resistor and Capacitor sizes are 0603 and 0805 with hand solder footprints
 
   * Incorporates Neopixel addressable LED
 
