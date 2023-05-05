@@ -4,9 +4,9 @@ RP2040 Development Board to explore programming capability of Raspberry Pi [RP20
 
 -*Spacing of pin headers is 0.9" to use on standard breadboard.
 
--*PCB Overall Dimensions 1.05" W X 1.95" L
+••*PCB Overall Dimensions 1.05" W X 1.95" L
 
--*USB-C Interface
+..*USB-C Interface
 
 -*Resistors and Capacitors are 0603 and 0805
 
