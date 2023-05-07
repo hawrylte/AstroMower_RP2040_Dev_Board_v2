@@ -80,5 +80,9 @@ pico/micropython/ports/rp2/boards/ASTROMOWER_RP2040_DEV_BOARD_V2/mpconfigboard.c
 pico/micropython/ports/rp2/boards/ASTROMOWER_RP2040_DEV_BOARD_V2/mpconfigboard.h
 
 ## License
-This hardware is licensed under the CERN Open Hardware License Version 2.0, Strongly Reciprocal Variant (CERN-OHL-S). See license.txt for additional information.
+This software is licensed under the MIT License.
+
+This hardware is licensed under the CERN Open Hardware License Version 2.0, Strongly Reciprocal Variant (CERN-OHL-S).
+
+See license.txt for additional information.
 
