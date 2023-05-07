@@ -65,12 +65,19 @@ make -C mpy-cross
 ```
 ***Load Board Specific Files for AstroMower Board***
 
+
 Build the port we need for RP2040 and specify our particular board to be built
 ```
 cd ports/rp2
 make BOARD=ASTROMOWER_RP2040_DEV_BOARD_V2
 ```
+pico/micropython/lib/pico-sdk/src/boards/include/boards/astromower_rp2040_dev_board_v2.h
 
+pico/micropython/ports/rp2/boards/ASTROMOWER_RP2040_DEV_BOARD_V2/board.json
+
+pico/micropython/ports/rp2/boards/ASTROMOWER_RP2040_DEV_BOARD_V2/mpconfigboard.cmake
+
+pico/micropython/ports/rp2/boards/ASTROMOWER_RP2040_DEV_BOARD_V2/mpconfigboard.h
 
 ## License
 This hardware is licensed under the CERN Open Hardware License Version 2.0, Strongly Reciprocal Variant (CERN-OHL-S). See license.txt for additional information.
