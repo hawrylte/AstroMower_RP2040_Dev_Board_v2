@@ -56,6 +56,7 @@ Bootstrap a special tool for MicroPython builds
 make -C mpy-cross
 ```
 ***Load Board Specific Files for AstroMower Board***
+
 Download *AstroMower RP2040 Dev Board v2* git repositiry
 ```
 cd ..
@@ -71,7 +72,7 @@ Build the port we need for RP2040 and specify our particular board to be built
 cd micropython/ports/rp2
 make BOARD=ASTROMOWER_RP2040_DEV_BOARD_V2
 ```
-Copy UF2 Firmware from *MicroPython* build directory to *Pico* directory
+Copy UF2 Firmware from *MicroPython* build directory to *pico* directory
 ```
 cd ../../..
 cp micropython/ports/rp2/build-ASTROMOWER_RP2040_DEV_BOARD_V2/firmware.uf2 AstroMower_RP2040_Dev_Board_MicroPython_firmware.uf2
