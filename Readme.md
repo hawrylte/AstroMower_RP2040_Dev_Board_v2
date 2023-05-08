@@ -58,6 +58,7 @@ make -C mpy-cross
 ***Load Board Specific Files for AstroMower Board***
 Download *AstroMower RP2040 Dev Board v2* git repositiry
 ```
+cd ..
 git clone https://github.com/hawrylte/AstroMower_RP2040_Dev_Board_v2.git
 ```
 Move specific board files to proper locations in *MicroPython* source files
