@@ -56,8 +56,15 @@ Bootstrap a special tool for MicroPython builds
 make -C mpy-cross
 ```
 ***Load Board Specific Files for AstroMower Board***
-
-
+Download *AstroMower RP2040 Dev Board v2* git repositiry
+```
+git clone https://github.com/hawrylte/AstroMower_RP2040_Dev_Board_v2.git
+```
+Move specific board files to proper locations in *MicroPython* source files
+```
+cp -r AstroMower_RP2040_Dev_Board_v2/src/ASTROMOWER_RP2040_DEV_BOARD_V2 micropython/ports/rp2/boards/ASTROMOWER_RP2040_DEV_BOARD_V2
+cp -r AstroMower_RP2040_Dev_Board_v2/src/astromower_rp2040_dev_board_v2.h micropython/lib/pico-sdk/src/boards/include/boards/astromower_rp2040_dev_board_v2.h
+```
 Build the port we need for RP2040 and specify our particular board to be built
 ```
 cd ports/rp2
