@@ -1,0 +1,20 @@
+{
+    "deploy": [
+        "../deploy.md"
+    ],
+    "docs": "",
+    "features": [
+        "Breadboard Friendly",
+        "RGB LED",
+        "SPI Flash",
+        "USB-C"
+    ],
+    "images": [
+        ""
+    ],
+    "mcu": "rp2040",
+    "product": "RP2040 Dev Board v2",
+    "thumbnail": "",
+    "url": "",
+    "vendor": "AstroMower"
+}
