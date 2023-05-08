@@ -30,20 +30,12 @@ MicroPython firmware for board can be downloaded directly or built from source.
 
 ***Instructions for building from source on Debian based system***
 
-Building from source required PICO-SDK source and MicroPython source. Installation of these mirrors instructions found in Raspberry Pi [Gettting Stated with Raspberry Pi Pico](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) and [Raspberry Pi Pico Python SDK](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-python-sdk.pdf)
+Building from source required PICO-SDK source and MicroPython source. Installation of these mirrors instructions found in Raspberry Pi [Gettting Stated with Raspberry Pi Pico](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf)
 
 Create *pico* directory
 ```
 mkdir pico
 cd pico
-```
-Then clone the *pico-sdk* and *pico-examples* git reposiories
-```
-git clone https://github.com/raspberrypi/pico-sdk.git --branch master
-cd pico-sdk
-git submodule update --init
-cd ..
-git clone https://github.com/raspberrypi/pico-examples.git --branch master
 ```
 Then clone the *micropython* git repository
 ```
@@ -79,10 +71,5 @@ pico/micropython/ports/rp2/boards/ASTROMOWER_RP2040_DEV_BOARD_V2/mpconfigboard.c
 
 pico/micropython/ports/rp2/boards/ASTROMOWER_RP2040_DEV_BOARD_V2/mpconfigboard.h
 
-## License
-This software is licensed under the MIT License.
 
-This hardware is licensed under the CERN Open Hardware License Version 2.0, Strongly Reciprocal Variant (CERN-OHL-S).
-
-See license.txt for additional information.
 
