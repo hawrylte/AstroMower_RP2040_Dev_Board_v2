@@ -68,16 +68,16 @@ cp -r AstroMower_RP2040_Dev_Board_v2/src/astromower_rp2040_dev_board_v2.h microp
 ```
 Build the port we need for RP2040 and specify our particular board to be built
 ```
-cd ports/rp2
+cd micropython/ports/rp2
 make BOARD=ASTROMOWER_RP2040_DEV_BOARD_V2
 ```
-pico/micropython/lib/pico-sdk/src/boards/include/boards/astromower_rp2040_dev_board_v2.h
+Copy UF2 Firmware from *MicroPython* build directory to *Pico* directory
+```
+cd ../../..
+cp micropython/ports/rp2/build-ASTROMOWER_RP2040_DEV_BOARD_V2/firmware.uf2 AstroMower_RP2040_Dev_Board_MicroPython_firmware.uf2
+```
 
-pico/micropython/ports/rp2/boards/ASTROMOWER_RP2040_DEV_BOARD_V2/board.json
 
-pico/micropython/ports/rp2/boards/ASTROMOWER_RP2040_DEV_BOARD_V2/mpconfigboard.cmake
-
-pico/micropython/ports/rp2/boards/ASTROMOWER_RP2040_DEV_BOARD_V2/mpconfigboard.h
 
 
 
