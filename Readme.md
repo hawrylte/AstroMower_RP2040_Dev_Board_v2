@@ -111,7 +111,9 @@ Move specific board files to proper locations in *MicroPython* source files
 cp -r AstroMower_RP2040_Dev_Board_v2/src/astromower_rp2040_dev_board_v2.h pico-sdk/src/boards/include/boards/astromower_rp2040_dev_board_v2.h
 ```
 ***Instructions for building Blink example from PICO-EXAMPLES from source on Debian based system***
+
 ***AstroMower Dev Board v2 does not have a discrete LED for Blink to run, but this shows the process of building a C/C++ program for the AstroMower Dev Board v2***
+
 Change to *pico-examples* directory and make *build* directory.
 ```
 cd pico-examples
