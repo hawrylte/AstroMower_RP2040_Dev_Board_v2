@@ -120,7 +120,7 @@ cd pico-examples
 mkdir build
 cd buid
 ```
-Set *PICO-SDK-PATH*
+Set *PICO_SDK_PATH*
 ```
 export PICO-SDK-PATH=../../pico-sdk
 ```
