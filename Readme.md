@@ -49,7 +49,7 @@ make -C port/rp2 submodules
 To build *micropython* additional tools are required
 ```
 sudo apt update
-sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essentials libstdc++-arm-none-eabi-newlib
+sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential libstdc++-arm-none-eabi-newlib
 ```
 Bootstrap a special tool for MicroPython builds
 ```
