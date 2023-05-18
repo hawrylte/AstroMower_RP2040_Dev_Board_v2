@@ -106,7 +106,7 @@ Download *AstroMower RP2040 Dev Board v2* git repositiry
 ```
 git clone https://github.com/hawrylte/AstroMower_RP2040_Dev_Board_v2.git
 ```
-Move specific board files to proper locations in *MicroPython* source files
+Move specific board files to proper locations in *pico-sdk* source files
 ```
 cp -r AstroMower_RP2040_Dev_Board_v2/src/astromower_rp2040_dev_board_v2.h pico-sdk/src/boards/include/boards/astromower_rp2040_dev_board_v2.h
 ```
